@@ -1,0 +1,48 @@
+.list-grid {
+    /* display: flexbox; */
+    height: 300px;
+    border-radius: 7px;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    border: 1px solid red;
+}
+
+.list-item {
+    display: flex;
+    width: 100%;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    flex-direction: column wrap;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+.list-body {
+    display: flex;
+    width: 95%;
+    flex-direction: column wrap;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.list-status {
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+
+.list-field {
+    display: flex;
+    border: 1px solid red;
+}
+
+.list-action {
+    display: flex;
+    border: 1px solid blue;
+}

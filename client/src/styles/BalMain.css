@@ -1,0 +1,23 @@
+.balance-main {
+    display: flex;
+    width: 100%;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    flex-direction: column wrap;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.balance-item {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    /* border: 1px solid blue; */
+}
+
+.balance-field {
+    width: 100%;
+    /* border: 1px solid red; */
+}

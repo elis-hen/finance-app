@@ -1,0 +1,37 @@
+.modal-gen {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 100px;
+    left: 400px;
+    right: 400px;
+    bottom: 100px;
+    border: 1px solid green;
+    background-color: #ffbf00;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(198, 198, 198);
+}
+
+.modal-gen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(53, 53, 53, 0.76);
+}
+
+.mov-modal-nature-group {
+    display: flex;
+    flex-direction: column wrap;
+}
+
+.mov-modal-nature-btn {
+    font-size: 10px;
+    width: 100px;
+}
+
+.active {
+    background-color: red;
+}
